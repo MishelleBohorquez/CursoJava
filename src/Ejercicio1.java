@@ -56,7 +56,7 @@ public class Ejercicio1 {
             System.out.println("Número: " + contadorCinco);
         }
 
-        for(int ascensor = 10; ascensor >= 1; ascensor--){
+        for(int ascensor = 10; ascensor > 0; ascensor--){
             if(ascensor != 4){
                 System.out.println("Piso #: " + ascensor);
             }
