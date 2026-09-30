@@ -4,6 +4,7 @@ public class Ejercicio1 {
     public static void main(String[] args) {
 
         //Ejercicio 1
+        System.out.println("------ Ejercicio 1 ------");
         int numeros = 0;
 
         while (numeros <= 35) {
@@ -12,6 +13,7 @@ public class Ejercicio1 {
         }
 
         //Ejercicio 2
+        System.out.println("------ Ejercicio 2 ------");
         int limiteNumerico = 0;
 
         Scanner teclado = new Scanner(System.in);
@@ -39,11 +41,13 @@ public class Ejercicio1 {
         }
 
         //Ejercicio 3
+        System.out.println("------ Ejercicio 3 ------");
         for (int numerosPares = 200; numerosPares <= 250; numerosPares += 2) {
             System.out.println("Número: " + numerosPares);
         }
 
         //Ejercicio 4
+        System.out.println("------ Ejercicio 4 ------");
         for (int cuentaRegresiva = 10; cuentaRegresiva >= 1; cuentaRegresiva--) {
             System.out.println("Número: " + cuentaRegresiva);
         }
@@ -59,11 +63,28 @@ public class Ejercicio1 {
         }
 
         //Ejercicio 5
+        System.out.println("------ Ejercicio 5 ------");
         String palabra = "";
 
-        while(!palabra.equalsIgnoreCase ("Salir")) {
+        while (!palabra.equalsIgnoreCase("Salir")) {
             System.out.println("Ingrese una palabra (Salir): ");
             palabra = teclado.next();
+            if (!palabra.equalsIgnoreCase("Salir")) {
+                System.out.println("Palabra: " + palabra);
+            }
         }
+
+        String palabraEjemplo;
+        System.out.println("Ingrese una palabra (Salir): ");
+        palabraEjemplo = teclado.nextLine();
+
+        while(!palabraEjemplo.equalsIgnoreCase("Salir")){
+            System.out.println("Palabra: " + palabraEjemplo);
+
+            System.out.println("Ingrese una palabra (Salir): ");
+            palabraEjemplo = teclado.nextLine();
+        }
+        System.out.println("¡Fin del programa!");
+
     }
 }
