@@ -19,7 +19,24 @@ public class EjercicioMatriz {
 
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[0].length; j++) {
-                System.out.println("Fila " + i + " | Columna " + j + ": "+ matriz[i][j]);
+                System.out.println("Fila " + i + " | Columna " + j + ": " + matriz[i][j]);
+            }
+        }
+
+
+        String nombres [][] = new String [2][2];
+        teclado.nextLine();
+
+        for(int i = 0; i < nombres.length; i++){
+            for(int j = 0; j < nombres[0].length; j++){
+                System.out.println("Nombre " + i + " | Apellido " + j);
+                nombres[i][j] = teclado.nextLine();
+            }
+        }
+
+        for(int i = 0; i < nombres.length; i++){
+            for(int j = 0; j < nombres[0].length; j++){
+                System.out.println("Nombre " + i + " | Apellido " + j + ": " + nombres[i][j]);
             }
         }
 

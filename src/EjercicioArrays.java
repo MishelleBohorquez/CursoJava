@@ -30,5 +30,28 @@ public class EjercicioArrays {
         int numerosModernos[] = {1, 2, 3, 4, 5};
         System.out.println(numerosModernos[2]);
 
+
+        String apellidos[] = {"Bohorquez", "Rojas", "Cortes", "Lopez", "Arias", "Forero", "Perez"};
+
+        System.out.println(apellidos[1]);
+
+        for(int i = 0; i < apellidos.length; i++){
+            System.out.println(apellidos[i]);
+        }
+
+        String nombres[] = new String [7];
+
+        teclado.nextLine();
+
+        for(int nom = 0; nom < nombres.length; nom++) {
+            System.out.println("Nombre (" + nom + "):");
+            nombres[nom] = teclado.nextLine();
+        }
+
+        for(int nom = 0; nom < nombres.length; nom++){
+            System.out.println(nombres[nom]);
+        }
+
+
     }
 }
