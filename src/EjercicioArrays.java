@@ -11,7 +11,13 @@ public class EjercicioArrays {
 
         System.out.println(numeros[2]);
 
-        int[] numerosModernos = {12, 16, 17, 20, 24};
+        for(int i = 0; i < numeros.length; i++){
+            System.out.println("Indice: " + i);
+            System.out.println("Valor: " + numeros[i]);
+        }
+
+
+        int[] numerosModernos = {1, 2, 3, 4, 5};
         System.out.println(numerosModernos[2]);
 
     }
