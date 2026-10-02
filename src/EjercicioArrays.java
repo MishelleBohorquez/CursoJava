@@ -5,6 +5,13 @@ public class EjercicioArrays {
 
         // [filas] | [filas] [Columas]
         int numeros [] = new int [5];
+        /*
+        numeros [0] = 1;
+        numeros [1] = 2;
+        numeros [2] = 3;
+        numeros [3] = 4;
+        numeros [4] = 5;
+         */
 
         Scanner teclado = new Scanner(System.in);
 
