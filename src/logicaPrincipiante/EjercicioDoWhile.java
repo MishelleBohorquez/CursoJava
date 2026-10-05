@@ -1,3 +1,5 @@
+package logicaPrincipiante;
+
 /* DO WHILE
 1. Casi no se usa}
 2. Entra al menos una vez

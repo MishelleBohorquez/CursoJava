@@ -1,4 +1,4 @@
-// FOR se usa con CONTADORES (ARRAYS)
+package logicaPrincipiante;// FOR se usa con CONTADORES (ARRAYS)
 /* Partes
 1. Inicialización de la variable
 2. Condicion de fin del ciclo

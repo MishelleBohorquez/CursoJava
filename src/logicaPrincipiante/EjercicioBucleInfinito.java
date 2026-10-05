@@ -1,4 +1,4 @@
-//NO HACER
+package logicaPrincipiante;//NO HACER
 import java.util.Scanner;
 
 public class EjercicioBucleInfinito {

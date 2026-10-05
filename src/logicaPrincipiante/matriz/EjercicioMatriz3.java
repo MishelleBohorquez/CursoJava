@@ -1,4 +1,4 @@
-package Matriz;
+package logicaPrincipiante.matriz;
 import java.util.Scanner;
 
 public class EjercicioMatriz3 {

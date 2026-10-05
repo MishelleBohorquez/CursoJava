@@ -1,3 +1,5 @@
+package logicaPrincipiante;
+
 public class EjercicioErrorDesbordamiento {
     public static void main(String[] args) {
 

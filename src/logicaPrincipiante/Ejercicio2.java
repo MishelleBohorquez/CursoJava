@@ -1,4 +1,4 @@
-// Estacionamiento
+package logicaPrincipiante;// Estacionamiento
 
 import java.util.Scanner;
 
@@ -64,7 +64,7 @@ public class Ejercicio2 {
         System.out.println("Ingreso total: " + ingresoTotal);
          */
 
-        //Ejercicio2: Elegir opción.
+        //LogicaPrincipiante.Ejercicio2: Elegir opción.
 
         int opcion, hora, contador1 = 0, contador2 = 0, contador3 = 0;
         String placa;

@@ -1,3 +1,5 @@
+package logicaPrincipiante;
+
 import java.util.Scanner;
 
 public class EjercicioEnglishSchool {
