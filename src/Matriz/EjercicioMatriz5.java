@@ -7,7 +7,7 @@ public class EjercicioMatriz5 {
 
         double notas[][] = new double[4][3];
         double promedios[] = new double [4];
-        double total;
+        double suma;
 //      double promedio;
 
 
@@ -22,15 +22,15 @@ public class EjercicioMatriz5 {
         }
 
         for (int i = 0; i < notas.length; i++) {
-            total = 0;
+            suma = 0;
             for (int j = 0; j < notas[0].length; j++) {
-                total = total + notas[i][j];
+                suma = suma + notas[i][j];
             }
             /*
-            promedio = total / notas[0].length;
+            promedio = suma / notas[0].length;
             promedios[i] = promedio;
              */
-            promedios[i] = total / notas[0].length;
+            promedios[i] = suma / notas[0].length;
         }
 
         for (int i = 0; i < notas.length; i++) {
