@@ -7,7 +7,7 @@ public class EjercicioMatriz4 {
         //Ejercicio 4
         double sueldo[] = new double [12];
         double suma = 0;
-        double promedio = 0;
+        double promedio;
 
         Scanner teclado = new Scanner(System.in);
 
@@ -16,8 +16,9 @@ public class EjercicioMatriz4 {
             sueldo[i] = teclado.nextDouble();
 
             suma += sueldo[i];
-            promedio = suma / sueldo.length;
         }
+
+        promedio = suma / sueldo.length;
 
         System.out.println("Suma sueldos: $" + suma + " USD");
         System.out.println("Promedio sueldos: $" + promedio + " USD");
@@ -25,7 +26,7 @@ public class EjercicioMatriz4 {
         //Forma Modular
         double sueldo[] = new double [12];
         double suma = 0;
-        double promedio = 0;
+        double promedio;
 
         Scanner teclado = new Scanner(System.in);
 
@@ -38,9 +39,7 @@ public class EjercicioMatriz4 {
             suma += sueldo[i];
         }
 
-        for(int i = 0; i < sueldo.length; i++){
-            promedio = suma / sueldo.length;
-        }
+        promedio = suma / sueldo.length;
 
         System.out.println("Suma sueldos: $" + suma + " USD");
         System.out.println("Promedio sueldos: $" + promedio + " USD");
