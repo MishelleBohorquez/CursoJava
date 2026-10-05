@@ -8,7 +8,7 @@ public class EjercicioMatriz5 {
         double notas[][] = new double[4][3];
         double promedios[] = new double [4];
         double total;
-//        double promedio;
+//      double promedio;
 
 
         Scanner teclado = new Scanner(System.in);
@@ -34,7 +34,7 @@ public class EjercicioMatriz5 {
         }
 
         for (int i = 0; i < notas.length; i++) {
-            System.out.println("Alumo " + (i + 1) + ": ");
+            System.out.println("\nAlumo " + (i + 1) + ": ");
             for (int j = 0; j < notas[0].length; j++) {
                 System.out.println("Nota " + (j + 1) + ": " + notas[i][j]);
             }
