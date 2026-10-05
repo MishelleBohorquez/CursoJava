@@ -16,7 +16,7 @@ public class EjercicioMatriz4 {
             sueldo[i] = teclado.nextDouble();
 
             suma += sueldo[i];
-            promedio = suma / 12;
+            promedio = suma / sueldo.length;
         }
 
         System.out.println("Suma sueldos: $" + suma + " USD");
@@ -39,7 +39,7 @@ public class EjercicioMatriz4 {
         }
 
         for(int i = 0; i < sueldo.length; i++){
-            promedio = suma / 12;
+            promedio = suma / sueldo.length;
         }
 
         System.out.println("Suma sueldos: $" + suma + " USD");
